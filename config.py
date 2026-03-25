@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8251658039:AAHg__fHz5fSkeYeI9PFby7aI4IUYRKQnxE")
-ADMIN_ID = os.getenv("ADMIN_ID", grafkin)  # Саша's ID
+ADMIN_ID = os.getenv("ADMIN_ID", 123456789)  # Саша's ID
 
 USER_LIST = [
     "lemme_nap",
