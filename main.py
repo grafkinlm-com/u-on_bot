@@ -1,8 +1,5 @@
 import asyncio
 import logging
-from aiogram import Bot, Dispatcher, F
-from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.types import BotCommand, BotCommandScopeDefault
 
 from config import BOT_TOKEN
 from handlers import commands, request_form, requests_view, statistics, admin, common, group_messages
@@ -12,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize bot and dispatcher
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=8251658039:AAHg__fHz5fSkeYeI9PFby7aI4IUYRKQnxE)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
